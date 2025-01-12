@@ -28,7 +28,7 @@ h1
     margin-bottom: 10px;
 }
 
-p
+.ChildContainer p
 {
     font-size: 4rem;
     color: white;
@@ -72,6 +72,32 @@ button
 .imagem img 
 {
     width: 18rem;
+}
+
+footer 
+{
+    
+    bottom: 0;
+    position: fixed;
+
+    width: 100vw;
+}
+
+footer p
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.8rem;
+    margin-right: 20px;
+    font-weight: bolder;
+}
+
+
+footer a 
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 @media (max-height: 925px) {
